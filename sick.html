@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Animal Doente</title>
+    <style>
+        body {
+            background-image: url("vaca.jpg");
+            background-repeat: no-repeat;
+            background-position: rigth-top;
+            background-attachment: scroll;
+            background-size: 100%;
+        }
+        h1 {
+            color: white;
+            font-family: "Times New Roman", Times, serif;
+            text-shadow: 2px 2px 5px red;
+        }
+        p {
+            color: white;
+            font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
+            font-size: 24px;
+        }
+        #vaca {
+            color:white;
+            font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
+            font-size: 24px;
+        }
+        button {
+            background-color: red;
+            border: 3px solid;
+            font-size: 24px;
+            box-shadow: 0 8px 16px;
+            border-radius: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Cadastro de Animal doente</h1>
+    </div>
+    <div>
+        <form action="FazenTech.html" method="post">
+            <p>
+                <label for="vaca">Animal Doente</label>
+                <input name="vaca" type="text" id="vaca">
+            </p>
+            <p>
+                <label for="tratamento">Descrição do tratamento
+                    <textarea rows="20" cols="50" maxlength="2000" id="tratamento"></textarea>
+                </label>
+            </p>
+            <p>
+                <label for="dias">Tempo de Tratamento
+                    <input name="vaca" type="text" id="dias">
+                </label>
+            </p>
+            <p>
+                <a href="FazenTech.html"><button>Enviar</button></a>
+            </p>
+        </form>
+    </div>
+</body>
+</html>
